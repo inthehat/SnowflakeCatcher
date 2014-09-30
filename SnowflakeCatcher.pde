@@ -1,6 +1,7 @@
 SnowFlake [] snow;
 void setup()
 {
+  frameRate(60);
   size(300,300);
   background(0);
   snow = new SnowFlake[150];
@@ -66,7 +67,7 @@ class SnowFlake
   void move()
   {
     if(isMoving == true)
-    y = y + 1;
+    y = y + .5;
   }
   void wrap()
   {
