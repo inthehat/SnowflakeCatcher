@@ -67,7 +67,7 @@ class SnowFlake
   void move()
   {
     if(isMoving == true)
-    y = y + .5;
+    y = y + 1;
   }
   void wrap()
   {
